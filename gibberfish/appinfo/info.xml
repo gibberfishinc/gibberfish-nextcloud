@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>gibberfish</id>
+    <name>Gibberfish</name>
+    <summary>Customization bundle for Gibberfish, Inc hosted Nextcloud instances</summary>
+    <description><![CDATA[Gibberfish, Inc hosts free, customized Nextcloud instances for nonprofits, activists, and community organizers. This app bundles in our customizations.]]></description>
+    <licence>agpl</licence>
+    <author mail="blacksam@gibberfish.org" homepage="https://gibberfish.org">Brian Ó Donnell</author>
+    <version>0.0.1</version>
+    <namespace>Gibberfish</namespace>
+    <category>customization</category>
+    <bugs>https://gitlab.com/gibberfish/gibberfish-nextcloud/issues</bugs>
+    <dependencies>
+        <owncloud min-version="9.2"/>
+        <nextcloud min-version="11" max-version="11"/>
+    </dependencies>
+</info>
